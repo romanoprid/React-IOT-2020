@@ -1,0 +1,10 @@
+.navbar {
+    background-color: black;
+}
+
+.Image {
+    display: inline-block;
+    align: top;
+    width: 100%;
+    height: 40%;
+}

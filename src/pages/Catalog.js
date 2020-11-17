@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 
-export default class Catalog extends Component {
-    render() {
+export default function Catalog () {
         return (
             <div>
                 Catalog
             </div>
         );
-    }
 }

@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {Container, Tab, Row, Nav, Col} from "react-bootstrap";
 
 
-export default class About extends Component {
-    render() {
+export default function About(){
         return (
             <Container>
                 <Tab.Container id="left_tabs" defaultActiveKey="first">
@@ -44,5 +43,4 @@ export default class About extends Component {
                 </Tab.Container>
             </Container>
         );
-    }
 }

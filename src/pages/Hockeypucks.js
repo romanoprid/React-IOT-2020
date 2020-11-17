@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 
-export default class Hockeypucks extends Component {
-    render() {
+export default function Hockeypucks () {
         return (
             <div>
                 Hockeypucks
             </div>
         );
-    }
 }

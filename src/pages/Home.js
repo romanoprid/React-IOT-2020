@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import CarouselBox from "../components/CarouselBox";
 import Container from "react-bootstrap/cjs/Container";
 import "../styles/home.css"
-export default class Home extends Component {
-    render() {
+export default function Home (){
         return (
             <>
                 <CarouselBox/>
@@ -37,5 +36,4 @@ export default class Home extends Component {
                 </div>
             </>
         );
-    }
 }

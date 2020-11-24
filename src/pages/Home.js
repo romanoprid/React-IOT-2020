@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import CarouselBox from "../components/CarouselBox";
 import Container from "react-bootstrap/cjs/Container";
 import "../styles/home.css"

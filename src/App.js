@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button} from 'react-bootstrap';
 import Header from "./components/Header";
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
-    return (<div>
-            <Header />
+    return (
+        <div>
+            <Header/>
         </div>
     );
 }

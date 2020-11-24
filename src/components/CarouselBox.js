@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Carousel from "react-bootstrap/Carousel";
 import mainImage from "../slider/Main.jpg";
 import hockey from "../slider/Hockey.jpg";
-import "../styles/carousel.css"
+import "../styles/carousel.css";
 
 function CarouselBox() {
     return (

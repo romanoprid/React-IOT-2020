@@ -1,9 +1,9 @@
-import React, {Component} from "react";
+import React from 'react';
 import {Button, Form, FormControl, Container, Navbar, Nav} from "react-bootstrap";
-import logo from "../images/Logo.png"
+import logo from "../images/Logo.png";
 
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
-import "../styles/header.css"
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import "../styles/header.css";
 
 import Home from "../pages/Home";
 import About from "../pages/About";
